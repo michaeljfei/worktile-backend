@@ -1,0 +1,34 @@
+{
+  "name": "worktile-backend",
+  "version": "1.0.0",
+  "description": "express async mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node worktile-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljfei/worktile-backend.git"
+  },
+  "keywords": [
+    "express",
+    "async",
+    "mongodb"
+  ],
+  "author": "Michael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeljfei/worktile-backend/issues"
+  },
+  "homepage": "https://github.com/michaeljfei/worktile-backend#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "serve-favicon": "^2.4.1"
+  }
+}
