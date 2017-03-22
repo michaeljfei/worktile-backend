@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 //配置User表结构
 
 const UserSchema = new Schema({
-    name : String,
-    psw : String,
+    username : String,
+    password : String,
     loginDate : Date
 })
 
