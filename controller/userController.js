@@ -2,8 +2,9 @@ const { User } = require('../models/user');
 const logger = require('log4js').getLogger('[UserContorller]');
 
 module.exports = {
+
     test : async (req, res, next) => {
-        let user = new model.User({
+        let user = new User({
             username : 'Michael',
             password : '111111',
             loginDate: new Date()
